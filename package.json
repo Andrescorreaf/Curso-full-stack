@@ -1,0 +1,19 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto con node",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/AndresCF/guia-hoteles.git"
+  },
+  "author": "Andres Franco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/AndresCF/guia-hoteles/issues"
+  },
+  "homepage": "https://bitbucket.org/AndresCF/guia-hoteles#readme"
+}
