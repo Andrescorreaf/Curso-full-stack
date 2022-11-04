@@ -4,6 +4,7 @@
   "description": "Mi primer proyecto con node",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://bitbucket.org/AndresCF/guia-hoteles/issues"
   },
-  "homepage": "https://bitbucket.org/AndresCF/guia-hoteles#readme"
+  "homepage": "https://bitbucket.org/AndresCF/guia-hoteles#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
 }
