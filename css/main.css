@@ -1,0 +1,27 @@
+.jumbotron{
+    background-color: yellowgreen;
+    color: whitesmoke;
+}
+
+footer{
+    padding: 10px 10px 0px 10px; 
+    background-color: yellowgreen;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+
+/*Flex: Urilizar esta propieda en el archivo css, 
+        YA NO necesita especificar en el HTML el ancho (col-4) de la columna, 
+        porque lo estamos definiendo conla propiedad flex.
+ 1 Da la orden que el ancho este intacto, 2 da la orden que cada auno de los items puede ocupar hast el doble de ancho
+ 150px especifica cual es el ancho definido
+*/
+.card-hotel{
+    flex:1 150px ;
+    padding: 5px 6px 5px 6px; /* Funciona como si fuera un reloj, arrancamos por el top y sigue en sentido horario, top, right, bottom, left*/
+}
+
+.btn-reserve{
+    width: 100%;
+}
