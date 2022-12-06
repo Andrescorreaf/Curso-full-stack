@@ -7,12 +7,14 @@
 }
 
 footer{
-    padding: 0px 0px 0px 0px; 
-    background-color: rgb(63, 83, 168);
-    color: whitesmoke;
+    padding: 10px 10px 0 10px;   
+    background-color: rgb(63, 83, 168);    
     margin-bottom: 0px;
-    margin-top: 0px;    
-
+    margin-top: 10px;
+     
+}
+.color-icon-social{
+    color: whitesmoke;
 }
 
 /*Flex: Urilizar esta propieda en el archivo css, 
@@ -23,9 +25,17 @@ footer{
 */
 .card-hotel{
     flex:1 150px ;
-    padding: 5px 0px 5px 6px; /* Funciona como si fuera un reloj, arrancamos por el top y sigue en sentido horario, top, right, bottom, left*/
+    padding: 2px 5px 2px 5px; /* Funciona como si fuera un reloj, arrancamos por el top y sigue en sentido horario, top, right, bottom, left*/
+    margin-top: 10px;
 }
 
 .btn-reserve{
     width: 100%;
+}
+
+.footer-address-icon{
+    padding-right: 10px;  /* Dar distancia al icono y el texto.*/
+}
+.footer-info-adicional{
+    color: whitesmoke;
 }
