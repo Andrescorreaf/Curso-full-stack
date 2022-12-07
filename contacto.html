@@ -41,16 +41,50 @@
                 <li class="breadcrumb-item" aria-current="page active">Contacto</li>
             </ol>
         </nav>
-        <div class="container">
-            <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu diam finibus, interdum sem eu,
-                imperdiet velit. Duis placerat leo quis enim vulputate tincidunt et at magna. Proin eleifend bibendum
-                nisi ac eleifend. Etiam eget urna ante. Fusce commodo ipsum sed ullamcorper interdum. In libero enim,
-                bibendum at leo at, lobortis consequat risus. Suspendisse potenti. Ut ullamcorper imperdiet est sed
-                sollicitudin. Sed finibus, diam vel tincidunt dictum, nunc mauris congue leo, sit amet gravida nisl enim
-                eget enim. Sed porta volutpat turpis vitae ultricies.
-            </span>
-        </div>
+        <h1>Deja tu comentario</h1>
+        <form>
+            <div class="form-group row">
+                <div class="form-group col-sm-6">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresar nombre">      
+
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingresar apellido">    
+                </div>
+            </div>
+            <div class="form-group row justify-content-start">
+                <div class="form-group col-sm-4">
+                    <label for="email">email</label>
+                    <input type="email" class="form-control" id="email" placeholder="ingresa tu email">
+                </div>
+                <div class="form-group col-sm-4">
+                    <label for="hotel">Selecciona el Hotel</label>
+                    <select id="hotel" class="form-control">
+                        <option selected>Hotel Franc Manizales</option>
+                        <option>Hotel Franc Bogota</option>
+                        <option>Hotel Franc Medellin</option>
+                        <option>Hotel Franc Cali</option>
+                        <option>Hotel Franc Cartagena</option>
+                        <option>Hotel Franc San Andres Isla</option>
+                    </select>                
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Comentario</label>
+                    <textarea id="comentario" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <div class="form-check">
+                    <label class="form-check-label" for="gridcheck">Quiero que me contacten</label>
+                    <input type="checkbox" class="form-check-input" id="gridcheck">
+                </div>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
     </div>
     <br>
     <footer>
