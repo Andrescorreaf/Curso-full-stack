@@ -24,13 +24,14 @@ footer{
  150px especifica cual es el ancho definido
 */
 .card-hotel{
-    flex:1 150px ;
-    padding: 2px 5px 2px 5px; /* Funciona como si fuera un reloj, arrancamos por el top y sigue en sentido horario, top, right, bottom, left*/
+    flex:1 200px ;
+    /*padding: 2px 0px 2px 0px;  Funciona como si fuera un reloj, arrancamos por el top y sigue en sentido horario, top, right, bottom, left*/
     margin-top: 10px;
 }
 
 .btn-reserve{
     width: 100%;
+    border-radius: 0px;
 }
 
 .footer-address-icon{
@@ -39,3 +40,4 @@ footer{
 .footer-info-adicional{
     color: whitesmoke;
 }
+
