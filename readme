@@ -1,1 +1,8 @@
 inicio del proyecto de guia de hoteles
+
+Steps:
+ * Clone el reporsitorio ideal con ssh.
+ * Cree una rama a partir de la rama develop
+ * Realice los cambios
+ * Realice un code review
+ * Solicite un mr con master
