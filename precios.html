@@ -141,14 +141,52 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
-                <div class="d-flex justify-content-between">
-                    <div class="card-header" style="background-color: blue; color: white;"> Tarjetas Aceptadas</div>
+                <div class="accordion" id="accordionTarjetas">
+                    <div class="card">
+                        <h2 class="card-header" id="headingOne">
+                            <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Tarjeta Basica
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionTarjetas">
+                            <div class="accordion-body">Puedes Reservar en 3 cuotas sin interes.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2 class="card-header" id="headingTwo">
+                            <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Tajeta VIP
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionTarjetas">
+                            <div class="accordion-body">Puedes reservar en 6 cuotas sin interes, en tu checkin recives
+                                la cena de bienvenida
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2 class="card-header" id="headingThree">
+                            <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Tarjeta Gold
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionTarjetas">
+                            <div class="accordion-body">Puedes resevar hast 12 cuotas sin intereses, recives cena y
+                                desalluno por 2 días de estadia
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"> Tarjeta básica</li>
-                    <li class="list-group-item"> Tarjeta VIP</li>
-                    <li class="list-group-item"> Tarjeta Black</li>
-                </ul>
             </div>
             <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">Comentarios
             </div>
